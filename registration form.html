@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body style= "background-color:lightgreen;">
+<form action="signup" method="post" autocomplete="on">
+<h1 style="text-align:center;">Registration Form</h1>
+<div align="center">
+<label for="name" align="center">Name:</label>&emsp;<input type="name" id="username" name="username" required><br><br>
+<label for="idno" align="center">ID no:</label>&emsp;<input type="number" id="regno" name="regno" required><br><br>
+<label for="name" align="center">Email Id:</label>&emsp;<input type="email" id="email" name="email" required><br><br>
+<label align="center">Favourite Game:</label>&nbsp;<input type="checkbox" id="cricket" name="cricket"><label for id="cricket">Cricket</label>&nbsp;<input type="checkbox" id="Football" name="Football"><label for id="Football">Football</label>&nbsp;
+<input type="checkbox" id="volleyball" name="volleyball"><label for id="volleyball">Volleyball</label>&nbsp;<input type="checkbox" id="throwball" name="throwball"><label for id="throwball">Throwball</label>&nbsp;<br><br>
+<label align="center">Gender:</label>&emsp;<input type="radio" id="male" name="male"><label for id="male">Male</label>&emsp;<input type="radio" id="female" name="female"><label for id="female">Female</label><br>
+<label for="subjects">Favourite Subjects:</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<select id="subjects" name="subjects">
+														<option value="java">JAVA</option>
+														<option value="c">C</option>
+														<option value="c++">C++</option>
+														<option value="python">Python</option>
+														</select><br><br>
+														
+<label>Address:</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<textarea id="address" name="address" color="red" rows="8" cols="30"></textarea><br><br>
+<input type="submit">
+</div>
+</html>
