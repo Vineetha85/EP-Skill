@@ -1,0 +1,41 @@
+<html>
+<head>
+<script>
+function validation()
+{
+var user=document.f1.user.value;
+var password=document.f1.password.value;
+
+if(user==null||user=="")
+{
+alert("username should not be empty");
+}
+if(password==null||password=="")
+{
+alert("password should not be empty");
+}
+if(user.length<8)
+{
+alert("username should have min 8 characterstics");
+}
+if(password.length<8)
+{
+alert("password should have min 8 characterstics");
+}
+if(user==password)
+{
+alert("welcome with username");
+}
+
+
+}
+</script>
+</head>
+<body>
+<form name="f1" method="post" onsubmit="validation()">
+Username:<input type="text" name="user"><br>
+Password:<input type="password" name="password"><br>
+<input type="submit" value="login">
+</form>
+</body>
+</html>
