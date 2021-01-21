@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT Students (student+)>
+<!ELEMENT Student (student+)>
 <!ELEMENT student (no,name,email,marks,class)>
 <!ELEMENT no (#PCDATA)>
 <!ELEMENT name (#PCDATA)>
